@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Resume Website
+
+Welcome to my resume website repository! This project is a personal portfolio site built with JavaScript, [Next.js](https://nextjs.org/), and CSS, along with all the powerful tools and features that come with a Next.js project.
+
+## Overview
+
+This website is designed to showcase my professional background, projects, skills, and experience. Although the website is still under active development, I am sharing it on GitHub to document its progress and to keep a public record of improvements and new features as they are added.
+
+## Current Status
+
+- **Work in Progress:** The site is not yet complete, and many features are still being developed. Your feedback and contributions are welcome!
+
+## Technologies Used
+
+- **JavaScript**: The core programming language used to build the website.
+- **Next.js**: A React framework that provides server-side rendering, static site generation, and many other optimizations out of the box.
+- **CSS**: For styling and layout to create a visually appealing and responsive design.
+- **Additional Tools**: All standard tools and best practices included in a Next.js project, such as ESLint for linting tailwindcss
 
 ## Getting Started
 
-First, run the development server:
+If you'd like to run the project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the Repository:**
+   git clone https://github.com/yourusername/resume-website.git
+   cd resume-website

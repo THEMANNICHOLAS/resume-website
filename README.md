@@ -2,6 +2,9 @@
 
 Welcome to my resume website repository! This project is a personal portfolio site built with JavaScript, [Next.js](https://nextjs.org/), and CSS, along with all the powerful tools and features that come with a Next.js project.
 
+Currently, my website is being hosted on Amazon Web Services (AWS) while I finish the project and purchase a domain. Feel
+free to take a look at it!:[My Website](https://master.d1scm4iweikjcw.amplifyapp.com/)
+
 ## Overview
 
 This website is designed to showcase my professional background, projects, skills, and experience. Although the website is still under active development, I am sharing it on GitHub to document its progress and to keep a public record of improvements and new features as they are added.

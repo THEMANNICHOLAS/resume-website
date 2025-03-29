@@ -17,11 +17,12 @@ const Navbar = () => {
                     className='w-28 cursor-pointer mr-14'></Image>
                 </a>
                 <ul 
-                className = 'hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50'>
-                    <li><a href="#top" >Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#work">My Projects</a></li> 
-                    <li><a href="#contact">Contact Me</a></li>
+                className = 
+                'hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50'>
+                    <li><a href="#top" className="transition-colors duration-200 hover:text-blue-400" >Home</a></li>
+                    <li><a href="#about" className="transition-colors duration-200 hover:text-blue-400">About Me</a></li>
+                    <li><a href="#work" className="transition-colors duration-200 hover:text-blue-400">My Projects</a></li> 
+                    <li><a href="#contact" className="transition-colors duration-200 hover:text-blue-400">Contact Me</a></li>
                 </ul>
                 <div className="flex items-center gap-4">
                     <a href="#contact" 
@@ -42,10 +43,10 @@ const Navbar = () => {
                     <div className='absolute right-6 top-6'>
                         <Image src={assets.images.crossIcon} alt='null' className='w-5 cursor-pointer'/>
                     </div>
-                    <li><a href="#top" >Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#work">My Projects</a></li> 
-                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="#top" className="transition-colors duration-200 hover:text-blue-400">Home</a></li>
+                    <li><a href="#about" className="transition-colors duration-200 hover:text-blue-400">About Me</a></li>
+                    <li><a href="#work" className="transition-colors duration-200 hover:text-blue-400">My Projects</a></li> 
+                    <li><a href="#contact" className="transition-colors duration-200 hover:text-blue-400">Contact Me</a></li>
                 </ul>
             </nav>
         </>

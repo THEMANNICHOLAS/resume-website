@@ -5,3 +5,8 @@
 font-family: Outfit;
 
 }
+
+.transition-blue {
+    @apply transition-colors duration-200 hover:text-blue-400;
+
+}

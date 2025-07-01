@@ -10,3 +10,9 @@ font-family: Outfit;
     @apply transition-colors duration-200 hover:text-blue-400;
 
 }
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}

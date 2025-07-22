@@ -17,7 +17,7 @@ const ovoFont = Ovo({
 
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <>
       <Navbar/>
       <Social/>
       <body className={`${outfitFont.className} ${ovoFont.className} antialiased`}>
@@ -26,7 +26,6 @@ export default function RootLayout({ children }) {
       </body>
       
   
-     
-    </html>
+    </>
   );
 }

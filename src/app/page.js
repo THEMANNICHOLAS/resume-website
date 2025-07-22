@@ -1,7 +1,4 @@
 'use client'
-import Image from "next/image";
-import Navbar from "./components/Navbar";
-import Social from "./components/Social";
 import InfoCard from "./home/InfoCard";
 
 

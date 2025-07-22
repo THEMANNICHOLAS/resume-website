@@ -39,7 +39,6 @@ const Navbar = () => {
                     <li><a href="#top" className="transition-colors duration-200 hover:text-blue-400" >Home</a></li>
                     <li><a href="#about" className="transition-colors duration-200 hover:text-blue-400">About Me</a></li>
                     <li><a href="#work" className="transition-colors duration-200 hover:text-blue-400">My Projects</a></li> 
-                    <li><a href="#contact" className="transition-colors duration-200 hover:text-blue-400">Contact Me</a></li>
                 </ul>
                 <div className="flex items-center gap-4">
                     <a href="#contact" 
@@ -63,7 +62,6 @@ const Navbar = () => {
                     <li><a href="#top" onClick ={closeMenu} className="transition-colors duration-200 hover:text-blue-400">Home</a></li>
                     <li><a href="#about" onClick ={closeMenu} className="transition-colors duration-200 hover:text-blue-400">About Me</a></li>
                     <li><a href="#work" onClick ={closeMenu} className="transition-colors duration-200 hover:text-blue-400">My Projects</a></li> 
-                    <li><a href="#contact" onClick ={closeMenu} className="transition-colors duration-200 hover:text-blue-400">Contact Me</a></li>
                 </ul>
             </nav>
         </>

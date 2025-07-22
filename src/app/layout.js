@@ -17,15 +17,12 @@ const ovoFont = Ovo({
 
 export default function RootLayout({ children }) {
   return (
-    <>
-      <Navbar/>
-      <Social/>
+    <html lang='en'>
       <body className={`${outfitFont.className} ${ovoFont.className} antialiased`}>
-        {children}
-      
+        <Navbar/>
+        <Social/>
+      {children}
       </body>
-      
-  
-    </>
+    </html>
   );
 }

@@ -1,5 +1,5 @@
 'use client'
-import InfoCard from "./components/InfoCard";
+import InfoCard from "../home/InfoCard"
 
 
 export default function Home() {
